@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Layout from './components/layout/layout';
 
-const App=()=>{
+
+class App extends Component {
+  render () {
   return(
     <div>
-      BURGER KING
+      <Layout>
+        BURGER KING Builder Component
+      </Layout>
     </div>
   );
+}
 }
 
 export default App;
