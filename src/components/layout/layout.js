@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Aux from '../../hoc/wrapper';
-import classes from './layout.css';
+import classes from './Layout.module.css';
 import BurgerBuilder from '../../container/BurgerBuilder/BurgerBuilder'
 
 const Layout=(props)=>(
