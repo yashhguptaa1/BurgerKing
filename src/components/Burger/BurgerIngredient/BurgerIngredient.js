@@ -9,21 +9,22 @@ class BurgerIngredient extends Component {
 // for class based components we use this.props instead of props like for function components
         switch ( this.props.type ) {
             case ( 'bread-bottom' ):
-                ingredient = <div className={classes.BreadBottom}></div>;
+                ingredient = <div className={classes.BreadBottom}>bread bottom shown</div>;
                 break;
             case ( 'bread-top' ):
                 ingredient = (
                     <div className={classes.BreadTop}>
-                        <div className={classes.Seeds1}></div>
-                        <div className={classes.Seeds2}></div>
+                        BreadTop shown
+                        <div className={classes.Seeds1}>Seeds1 shown</div>
+                        <div className={classes.Seeds2}>Seeds2 shown</div>
                     </div>
                 );
                 break;
             case ( 'meat' ):
-                ingredient = <div className={classes.Meat}></div>;
+                ingredient = <div className={classes.Meat}>meat shown</div>;
                 break;
             case ( 'cheese' ):
-                ingredient = <div className={classes.Cheese}></div>;
+                ingredient = <div className={classes.Cheese}>cheese shown</div>;
                 break;
             case ( 'bacon' ):
                 ingredient = <div className={classes.Bacon}></div>;
